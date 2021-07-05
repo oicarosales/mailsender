@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 msg = MIMEMultipart()
-message = " Teste de e-mail "
+message = " Exemple messange " # Menssage Here
 
 password = "******"                  # Sender Password Here
 msg['From'] = "from_exemple@mail.com"  # Sender Here
